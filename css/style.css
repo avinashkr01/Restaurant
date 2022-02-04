@@ -90,12 +90,17 @@ html {
 
 .custom-container .inner .carousel {
   height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .custom-container .inner .carousel .item {
   text-align: center;
   padding: 0 5rem;
-  padding-top: 7%;
 }
 
 .custom-container .inner .carousel .item h3 {
@@ -697,7 +702,7 @@ footer .footer-width h5 {
 
 @media only screen and (max-width: 1300px) {
   .custom-container .inner .carousel .item {
-    padding: 3rem 2rem;
+    padding: 0 2rem;
   }
   .third-section .main-box .box {
     width: 31%;
@@ -721,7 +726,7 @@ footer .footer-width h5 {
 
 @media only screen and (max-width: 1200px) {
   .custom-container .inner .carousel .item {
-    padding: 3rem 0;
+    padding: 0;
   }
   .second-section {
     margin: 2.5rem auto;
@@ -771,7 +776,7 @@ footer .footer-width h5 {
 
 @media only screen and (max-width: 1000px) {
   .custom-container .inner .carousel .item {
-    padding: 3rem 0;
+    padding: 0;
   }
   .second-section {
     margin: 2rem auto;
@@ -902,9 +907,6 @@ footer .footer-width h5 {
   }
   .custom-container .inner nav .menu-bar {
     display: block;
-  }
-  .custom-container .inner .carousel .item {
-    padding: 2rem 0;
   }
   .second-section .custom-row .custom-textbox h4 {
     font-size: 1.1rem;
@@ -1102,9 +1104,6 @@ footer .footer-width h5 {
   .custom-container .inner nav .nav-right {
     position: absolute;
     top: 2.2rem;
-  }
-  .custom-container .inner .carousel .item {
-    padding: 1.5rem 0;
   }
   .custom-container .inner .carousel .item h3 {
     font-size: 2.25rem;

@@ -11,7 +11,7 @@
         .inner {
             .carousel {
                 .item {
-                    padding: 3rem 2rem;
+                    padding: 0 2rem;
                 }
             }
         }
@@ -56,7 +56,7 @@
         .inner {
             .carousel {
                 .item {
-                    padding: 3rem 0;
+                    padding: 0;
                 }
             }
         }
@@ -139,7 +139,7 @@
         .inner {
             .carousel {
                 .item {
-                    padding: 3rem 0;
+                    padding: 0;
                 }
             }
         }
@@ -205,13 +205,13 @@
         }
     }
 
-    footer{
-        .footer-width{
-            h4{
+    footer {
+        .footer-width {
+            h4 {
                 font-size: 0.7rem;
             }
 
-            h5{
+            h5 {
                 font-size: 0.6rem;
             }
         }
@@ -379,12 +379,6 @@
                     display: block;
                 }
             }
-
-            .carousel {
-                .item {
-                    padding: 2rem 0;
-                }
-            }
         }
     }
 
@@ -425,8 +419,7 @@
 
 @media only screen and (max-width: 750px) {
     .second-section {
-
-        .row{
+        .row {
             margin-right: 0;
         }
 
@@ -554,10 +547,10 @@
         }
     }
 
-    footer{
-        .footer-width{
-            .footer-content{
-                .ftr-box{
+    footer {
+        .footer-width {
+            .footer-content {
+                .ftr-box {
                     width: 33%;
                 }
             }
@@ -669,13 +662,13 @@
         }
     }
 
-    footer{
-        .footer-width{
-            .footer-content{
-                .ftr-box{
+    footer {
+        .footer-width {
+            .footer-content {
+                .ftr-box {
                     width: 100%;
 
-                    h4{
+                    h4 {
                         margin-top: 1rem;
                         margin-bottom: 0.5rem;
                     }
@@ -758,7 +751,6 @@
             }
             .carousel {
                 .item {
-                    padding: 1.5rem 0;
                     h3 {
                         font-size: 2.25rem;
                     }
@@ -965,13 +957,13 @@
         }
     }
 
-    footer{
-        .footer-width{
-            h4{
+    footer {
+        .footer-width {
+            h4 {
                 font-size: 0.6rem;
             }
 
-            h5{
+            h5 {
                 font-size: 0.5rem;
             }
         }
@@ -1145,13 +1137,13 @@
         }
     }
 
-    footer{
-        .footer-width{
-            h4{
+    footer {
+        .footer-width {
+            h4 {
                 font-size: 0.55rem;
             }
 
-            h5{
+            h5 {
                 font-size: 0.45rem;
             }
         }
