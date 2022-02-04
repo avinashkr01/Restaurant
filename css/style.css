@@ -81,10 +81,11 @@ html {
 }
 
 .custom-container .inner nav .menu-bar {
-  padding-top: 0.1rem;
+  margin-top: 0.4rem;
   display: none;
   font-size: 1rem;
   cursor: pointer;
+  padding-right: 0.5rem;
 }
 
 .custom-container .inner .carousel {
@@ -93,7 +94,8 @@ html {
 
 .custom-container .inner .carousel .item {
   text-align: center;
-  padding: 3rem 5rem;
+  padding: 0 5rem;
+  padding-top: 7%;
 }
 
 .custom-container .inner .carousel .item h3 {
@@ -472,6 +474,10 @@ html {
   margin-bottom: 0.9rem;
   border: 1px solid grey;
   padding: 0 0.5rem;
+}
+
+.booking-section .booking-content .b-left input[type="date"] {
+  background-color: #fff;
 }
 
 .booking-section .booking-content .b-left input[type="submit"] {
