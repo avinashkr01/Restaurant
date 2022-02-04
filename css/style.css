@@ -19,6 +19,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
+  background-position: center;
 }
 
 .custom-container .inner {
@@ -609,7 +610,7 @@ html {
 }
 
 footer {
-  background-color: #1f1f1f;
+  background-color: #222831;
 }
 
 footer .footer-width {
